@@ -9,5 +9,5 @@ if (program.list) {
     require('../src/main').getListPub();
 }
 if (program.opened) {
-    require('../src/main').getListPubCurrentDay();
+    require('../src/main').getListPubOpened();
 }

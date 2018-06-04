@@ -4,11 +4,11 @@ function getListPub(){
     pubs.pubService.listPub();
 }
 
-function getListPubCurrentDay(){
+function getListPubOpened(){
     pubs.pubService.listPubCurrentDay();
 }
 
 module.exports = {
     getListPub: getListPub,
-    getListPubCurrentDay: getListPubCurrentDay
+    getListPubOpened: getListPubOpened
 }
